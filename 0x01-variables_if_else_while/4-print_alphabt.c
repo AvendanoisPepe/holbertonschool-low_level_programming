@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main-prints the alphabet except q and c
+*main-prints the alphabet except q and e
 *Return:0 if there is no error
 */
 int main(void)
@@ -8,7 +8,7 @@ int main(void)
 char letter;
 for (letter = 'a'; letter <= 'z'; letter++)
 {
-if (letter != 'q' && letter != 'c')
+if (letter != 'q' && letter != 'e')
 {
 putchar(letter);
 }
