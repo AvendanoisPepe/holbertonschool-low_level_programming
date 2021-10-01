@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*main-assigns random numbers to "n"*/
-/*prints depending on the number*/
-/*Return:0 if there is no error*/
+/**
+main-assigns random numbers to "n"
+prints depending on the number
+Return:0 if there is no error
+*/
 int main(void)
 {
 int n;
