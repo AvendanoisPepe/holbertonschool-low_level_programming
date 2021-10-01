@@ -5,11 +5,11 @@
 */
 int main(void)
 {
-  int primero = 0;
-  int segundo = 0;
-  while (primero < 100)
+  int primero;
+  int segundo;
+  for (primero = 0; primero < 100; primero++)
     {
-      while (segundo < 100)
+      for (segundo = 0; segundo < 100; segundo++)
 	{
 	  if (primero < segundo)
 	    {
@@ -24,9 +24,7 @@ int main(void)
 		  putchar(' ');
 		}
 	    }
-	  segundo++;
-	}
-      primero++;
+  	}
     }
   putchar('\n');
   return (0);
