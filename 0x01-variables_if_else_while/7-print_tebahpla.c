@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*Prints the alphabet upside down 
+*Prints the alphabet upside down
 *Return:0 if there is no error
 */
 int main(void)
