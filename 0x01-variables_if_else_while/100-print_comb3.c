@@ -8,11 +8,11 @@ int main(void)
 int primero;
 int segundo;
 
-for (primero = 48; primero <=56; primero++)
+for (primero = 48; primero <= 56; primero++)
 {
 for (segundo = 49; segundo <= 57; segundo++)
 {
-if(segundo > primero)
+if (segundo > primero)
 {
 putchar(primero);
 putchar(segundo);
