@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*main-assigns random numbers to "n"*/
+/*Return:0 if there is no error*/
 int main(void)
 {
 int n;
