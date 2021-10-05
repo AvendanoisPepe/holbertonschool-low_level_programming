@@ -15,7 +15,7 @@ while (num1 < 10)
 while (num2 < 10)
 {
 num3 = num2 * num1;
-if (num3 == 0)
+if (num2 == 0)
 {
 _putchar(num3 + '0');
 }
@@ -36,7 +36,7 @@ _putchar((num3 % 10) + '0');
 }
 num2++;
 }
+num1++;
 _putchar('\n');
- num1++;
 }
 }
