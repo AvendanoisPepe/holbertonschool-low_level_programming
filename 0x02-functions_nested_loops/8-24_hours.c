@@ -17,6 +17,6 @@ _putchar(':');
 _putchar((num4 / 10) + '0');
 _putchar((num4 % 10) + '0');
 _putchar('\n');
-} 
+}
 }
 }
