@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *times_table-prints the table of nine
 */
@@ -10,10 +11,11 @@ int num3;
 
 while (num1 < 10)
 {
+  printf("num2: %d\n", num2);
 while (num2 < 10)
 {
-num3 = num1 * num2;
-if (num2 == 0)
+num3 = num2 * num1;
+if (num3 == 0)
 {
 _putchar(num3 + '0');
 }
@@ -34,7 +36,7 @@ _putchar((num3 % 10) + '0');
 }
 num2++;
 }
-num1++;
 _putchar('\n');
+ num1++;
 }
 }
