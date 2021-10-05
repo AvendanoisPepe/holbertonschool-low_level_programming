@@ -4,8 +4,8 @@
 */
 void print_to_98(int n)
 {
-  int num1 = 0;
-  int num2 = 0;
+  int num1 = n;
+  int num2 = n;
 
   if (n <= 98)
     {
@@ -24,7 +24,7 @@ void print_to_98(int n)
     }
   else if (n >= 98)
     {
-      while (num2 > 98)
+      while (num2 >= 98)
 	{
 	  if (num2 != 98)
 	    {
