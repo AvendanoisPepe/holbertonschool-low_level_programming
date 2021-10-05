@@ -11,7 +11,6 @@ int num3;
 
 while (num1 < 10)
 {
-  printf("num2: %d\n", num2);
 while (num2 < 10)
 {
 num3 = num2 * num1;
