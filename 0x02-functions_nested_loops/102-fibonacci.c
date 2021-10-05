@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*prints Fibonacci numbers up to 50.
+*main-prints Fibonacci numbers up to 50.
 *Return:0 if there is no error
 */
 int main(void)
