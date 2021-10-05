@@ -21,6 +21,6 @@ int main(void)
      contador++;
    }
  numero = tres + cinco;
- printf("%d\n", numero);
+ printf("%ld\n", numero);
  return (0);
 }
