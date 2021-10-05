@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  *main-prints the required phrase
  *Return:0 if there is no error
