@@ -11,6 +11,7 @@ int num3;
 
 while (num1 < 10)
 {
+  num2 = 0;
 while (num2 < 10)
 {
 num3 = num2 * num1;
