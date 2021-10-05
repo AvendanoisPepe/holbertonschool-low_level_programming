@@ -1,28 +1,30 @@
 #include <stdio.h>
 /**
+*main-prints the sum of even numbered values
+*Return:0 if there is no error
 */
 int main(void)
 {
-  unsigned long int primero = 1;
-  unsigned long int segundo = 2;
-  unsigned long int numero;
-  unsigned long int contador = 0;
-  int num1 = 1;
-  while (num1 <= 33)
-    {
-      if (primero < 4000000 && (primero % 2)  == 0)
-	{
-	  contador = contador + primero;
-	}
+unsigned long int primero = 1;
+unsigned long int segundo = 2;
+unsigned long int numero;
+unsigned long int contador = 0;
+int num1 = 1;
+while (num1 <= 33)
+{
+if (primero < 4000000 && (primero % 2)  == 0)
+{
+contador = contador + primero;
+}
 
-      numero = primero + segundo;
+numero = primero + segundo;
 
-      primero = segundo;
+primero = segundo;
 
-      segundo = numero;
+segundo = numero;
 
-      num1++;
-    }
-  printf("%ld\n", contador);
-  return (0);
+num1++;
+}
+printf("%ld\n", contador);
+return (0);
 }
