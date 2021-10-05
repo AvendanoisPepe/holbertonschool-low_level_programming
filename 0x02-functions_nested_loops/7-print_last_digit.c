@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+*print_last_digit-prints the last digit of the numerical data.
+*@variable1: the data in which the last digit was taken.
+*Return:the last digit.
 */
 int print_last_digit(int variable1)
 {
