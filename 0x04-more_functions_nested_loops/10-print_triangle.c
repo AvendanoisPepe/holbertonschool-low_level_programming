@@ -12,7 +12,8 @@ void print_triangle(int size)
 	else
 	{
 		int contador1 = 1;
-	       	int contador2 = contador1;
+
+		int contador2 = contador1;
 
 		while (contador1 <= size)
 		{
