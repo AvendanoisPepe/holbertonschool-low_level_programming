@@ -18,8 +18,8 @@
 
 8-print_square.c - Imprime un cuadro y se le da el tamaño con la variable size.
 
-8-print_square.c - Imprime los numeros del 1 al 100 reemplazndo los multiplos de
-		   3 por Fizz, los de 5 por Buzz y los de ambos por FizzBuzz.
+9-fizz_buzz.c - Imprime los numeros del 1 al 100 reemplazndo los multiplos de
+		3 por Fizz, los de 5 por Buzz y los de ambos por FizzBuzz.
 
 10-print_triangle.c - Imprime un triangulo con el tamaño de la variable size.
 
