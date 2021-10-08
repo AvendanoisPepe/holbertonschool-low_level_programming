@@ -27,7 +27,8 @@ int main(void)
 		numero1 = numero1 + 2;
 	}
 
-	if (numero > 2){
+	if (numero > 2)
+	{
 		numMay = numero;
 	}
 	printf("%ld\n", numMay);
