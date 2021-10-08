@@ -8,6 +8,7 @@
 int mul(int a, int b)
 {
 	int numerito;
+
 	numerito = a * b;
 
 	return (numerito);
