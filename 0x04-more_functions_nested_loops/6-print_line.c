@@ -12,6 +12,7 @@ void print_line(int n)
 	else
 	{
 		int contador = 1;
+
 		while (contador <= n)
 		{
 			_putchar('_');
