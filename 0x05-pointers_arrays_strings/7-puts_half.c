@@ -29,7 +29,7 @@ void puts_half(char *str)
 	{
 		condicompleta = (variable - 1) / 2;
 
-		while (condicompleta < variable)
+		while (condicompleta < variable - 1)
 		{
 			_putchar(str[condicompleta + 1]);
 			condicompleta++;
