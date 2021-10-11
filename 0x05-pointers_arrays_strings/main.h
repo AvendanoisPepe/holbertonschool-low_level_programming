@@ -1,5 +1,6 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
+void print_array(int *a, int n);
 void puts_half(char *str);
 void rev_string(char *s);
 int _putchar(char c);
