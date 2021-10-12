@@ -26,7 +26,7 @@ int main(void)
 		{
 			variable2 = 2772 - suma - '0';
 			suma += variable2;
-			putchar(variable2 + 'n');
+			putchar(variable2 + '0');
 			break;
 		}
 		variable1++;
