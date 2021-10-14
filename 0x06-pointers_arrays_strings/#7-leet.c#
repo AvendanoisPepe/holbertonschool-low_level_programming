@@ -1,0 +1,27 @@
+#include "main.h"
+/**
+ **leet-Encodes the string w in 1337.
+ *@w:chain to be altered.
+ *Return:w
+*/
+char *leet(char *w)
+}
+
+char *original = "aAeEoOtTlL";
+char *reemplazo = "4433007711";
+int variable1;
+int variable2;
+
+for (i = 0; w[i] != '\0'; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			if (w[i] == original[j])
+			{
+				w[i] = reemplazo[j];
+			}
+		}
+	}
+
+	return (w);
+}

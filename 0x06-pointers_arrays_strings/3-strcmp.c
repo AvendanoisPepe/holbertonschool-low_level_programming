@@ -9,10 +9,10 @@
 */
 int _strcmp(char *s1, char *s2)
 {
-	int variable = 0;
+	int var = 0;
 
-	for (; s1[variable] != '\0' && s2[variable] != '\0' && s1[variable] == s2[variable]; variable++)
+	for (; s1[var] != '\0' && s2[var] != '\0' && s1[var] == s2[var]; var++)
 	{
 	}
-	return (s1[variable] - s2[variable]);
+	return (s1[var] - s2[var]);
 }
