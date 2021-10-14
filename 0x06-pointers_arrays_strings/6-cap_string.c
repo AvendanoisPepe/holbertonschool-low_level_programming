@@ -7,17 +7,17 @@
 char *cap_string(char *w)
 {
 	char arreglo[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(',
-
 			    ')', '{', '}'};
 	int variable = 0;
 	int variable2 = 0;
 
+        if (variable == 0 && w[variable] >= 'a' && w[variable] <= 'z')
+	{
+		w[variable] = -32;
+	}
+	
 	while (w[variable] != '\0')
 	{
-		if (variable == 0 && w[variable] >= 'a' && w[variable] <= 'z')
-		{
-			w[variable] = -32;
-		}
 
 		while (variable2 < 13)
 		{
