@@ -15,7 +15,7 @@ char *leet(char *w)
 	while (w[variable1] != '\0')
 	{
 		variable2 = 0;
-		
+
 		while (variable2 < 10)
 		{
 			if (w[variable1] == original[variable2])
