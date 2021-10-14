@@ -16,7 +16,7 @@ char *cap_string(char *w)
 	{
 		if (variable == 0 && w[variable] >= 'a' && w[variable] <= 'z')
 		{
-			w[variable] -= 32;
+			w[variable] = -32;
 		}
 
 		while (variable2 < 13)
@@ -25,7 +25,7 @@ char *cap_string(char *w)
 			{
 				if (w[variable + 1] >= 'a' && w[variable + 1] <= 'z')
 				{
-					w[variable] -= 32;
+					w[variable] = -32;
 				}
 			}
 
