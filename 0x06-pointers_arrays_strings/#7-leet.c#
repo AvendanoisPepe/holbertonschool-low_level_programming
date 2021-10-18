@@ -5,22 +5,27 @@
  *Return:w
 */
 char *leet(char *w)
-}
+{
+	char *original = "aAeEoOtTlL";
+	char *reemplazo = "4433007711";
 
-char *original = "aAeEoOtTlL";
-char *reemplazo = "4433007711";
-int variable1;
-int variable2;
+	int variable1 = 0;
+	int variable2 = 0;
 
-for (i = 0; w[i] != '\0'; i++)
+	while (w[variable1] != '\0')
 	{
-		for (j = 0; j < 10; j++)
+		variable2 = 
+		while (variable2 < 10)
 		{
-			if (w[i] == original[j])
+			if (w[variable1] == original[variable2])
 			{
-				w[i] = reemplazo[j];
+				w[variable1] = reemplazo[variable2];
 			}
+
+			variable2++;
 		}
+
+		variable1++;
 	}
 
 	return (w);
