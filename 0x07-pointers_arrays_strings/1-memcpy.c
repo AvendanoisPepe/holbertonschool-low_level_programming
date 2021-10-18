@@ -8,13 +8,13 @@
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-unsigned int datito = 0;
+	unsigned int datito = 0;
 
-while (datito  < n)
-{
-dest[datito] = src[datito];
-datito++;
-}
+	while (datito  < n)
+	{
+	dest[datito] = src[datito];
+	datito++;
+	}
 
-return (dest);
+	return (dest);
 }
