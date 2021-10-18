@@ -8,12 +8,12 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int datito = 0;
+        unsigned int datito = 0;
 
-while (datito < n)
-{
-s[datito] = b;
-datito++;
-}
-return (s);
+        while (datito < n)
+        {
+                s[datito] = b;
+                datito++;
+        }
+        return (s);
 }
