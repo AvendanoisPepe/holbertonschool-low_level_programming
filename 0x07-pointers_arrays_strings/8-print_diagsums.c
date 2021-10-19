@@ -20,5 +20,5 @@ void print_diagsums(int *a, int size)
 		contador++;
 	}
 
-	printf("%d, %d \n", prisuma, segsuma);
+	printf("%d, %d\n", prisuma, segsuma);
 }
