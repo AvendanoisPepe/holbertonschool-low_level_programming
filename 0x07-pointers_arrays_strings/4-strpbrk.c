@@ -21,7 +21,7 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-	if (*s != *accept)
+	if (s != accept)
 	{
 		s = '\0';
 	}
