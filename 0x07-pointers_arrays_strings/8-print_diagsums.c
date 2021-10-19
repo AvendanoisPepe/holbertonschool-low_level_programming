@@ -16,7 +16,7 @@ void print_diagsums(int *a, int size)
 	{
 		prisuma += a[(size * contador) + contador];
 
-		segsuma += a[(size * (contador + 1)) - (contador - 1)];
+		segsuma += a[(size * (contador + 1)) - (contador + 1)];
 		contador++;
 	}
 
