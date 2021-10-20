@@ -1,4 +1,4 @@
- #include "malloc.h"
+ #include "main.h"
 /**
   * _puts_recursion-Imprime  una cadena.
   * @s: es la cadena que se imprime.
