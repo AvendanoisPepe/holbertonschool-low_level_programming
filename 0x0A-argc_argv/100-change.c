@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *main-Imprime la cantidad  minima de monedas para cambiar x cantidad de dinero
  * @argc:numero de argumentos que se le pasan al programa.
