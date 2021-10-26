@@ -18,6 +18,11 @@ char *create_array(unsigned int size, char c)
 
 	guardarT = malloc(sizeof(char) * size);
 
+	if (guardarT == NULL)
+	{
+		return (0);
+	}
+
 	while (iterador < size)
 	{
 		guardarT[iterador] = c;
