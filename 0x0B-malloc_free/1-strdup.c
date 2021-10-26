@@ -22,7 +22,7 @@ char *_strdup(char *str)
 		longitud++;
 	}
 
-	guardarT = malloc(sizeof(char) * longitud);
+	guardarT = malloc(sizeof(char) * (longitud + 1));
 
 	if (guardarT == NULL)
 	{
