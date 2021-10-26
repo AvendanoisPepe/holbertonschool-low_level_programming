@@ -26,6 +26,8 @@ char *str_concat(char *s1, char *s2)
 			longitud2++;
 		}
 	ss = malloc(sizeof(char) * (longitud1 + longitud2 + 1));
+	iterador1 = 0;
+	iterador2 = 0;
 	if (ss == NULL)
 		return (NULL);
 	if (s1)
