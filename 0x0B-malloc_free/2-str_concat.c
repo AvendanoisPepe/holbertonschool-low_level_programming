@@ -8,24 +8,25 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int longitud1 = 0;
-	unsigned int longitud2 = 0;
+	unsigned int longitud1 = 0, longitud2 = 0, iterador1, iterador2;
 	char *ss;
-	unsigned int iterador1;
-	unsigned int iterador2;
 
+	if (s1 == NULL)
+	{
+		iterador1 = 0;
+	} else if (s2 == NULL)
+	{
+		iterador2 = 0;
+	}
 	while (s1[longitud1])
 	{
 		longitud1++;
 	}
-
 	while (s2[longitud2])
 	{
 		longitud2++;
 	}
-
-	ss = malloc(sizeof(char) * (longitud1 + longitud2));
-
+	ss = malloc(sizeof(char) * (longitud1 + longitud2 + 1));
 	if (ss == NULL)
 	{
 		return (NULL);
