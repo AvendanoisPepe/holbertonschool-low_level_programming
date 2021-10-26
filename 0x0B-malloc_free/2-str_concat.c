@@ -12,40 +12,33 @@ char *str_concat(char *s1, char *s2)
 	char *ss;
 
 	if (s1 == NULL)
-	{
-		iterador1 = 0;
-	} else if (s2 == NULL)
-	{
-		iterador2 = 0;
-	}
-	while (s1[longitud1])
-	{
-		longitud1++;
-	}
-	while (s2[longitud2])
-	{
-		longitud2++;
-	}
+		longitud1 = 0;
+	else
+		while (s1[longitud1])
+		{
+			longitud1++;
+		}
+	if (s2 == NULL)
+		longitud2 = 0;
+	else
+		while (s2[longitud2])
+		{
+			longitud2++;
+		}
 	ss = malloc(sizeof(char) * (longitud1 + longitud2 + 1));
 	if (ss == NULL)
-	{
 		return (NULL);
-	}
 	if (s1)
-	{
 		for (iterador1 = 0; iterador1 < longitud1; iterador1++)
 		{
 			ss[iterador1] = s1[iterador1];
 		}
-	}
 	if (s2)
-	{
 		for (iterador2 = 0; iterador2 < (longitud1 + longitud2); iterador2++)
 		{
 			ss[iterador1] = s2[iterador2];
 			iterador1++;
 		}
-	}
 	ss[iterador1] = '\0';
 	return (ss);
 }
