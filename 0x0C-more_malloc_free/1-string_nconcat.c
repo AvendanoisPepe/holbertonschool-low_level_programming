@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			longitud2++;
 		}
-	if (n <longitud2)
+	if (n <= longitud2)
 		guardarT = malloc(sizeof(char) * (longitud1 + n + 1));
 	else
 		guardarT = malloc(sizeof(char) * (longitud1 + longitud2 + 1));
