@@ -8,4 +8,4 @@
 
 3-alloc_grid.c =  En simples palabras generamos dos malloc para cada eje y a los dos los recorremos poniendo condicionales como si son nulos y si es el caso que libere el espacio en memoria
 
-4-free_grid.c =
+4-free_grid.c = Recreamos una parte del ejercicio anterior para liberar memoria del ejercicio 3.
