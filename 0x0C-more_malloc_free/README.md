@@ -4,4 +4,4 @@
 
 1-string_nconcat.c = Concateno dos cadenas, la cadena origen es s1 y concatenamos el numero n de bytes de la cadena s.
 
-2-calloc.c =  En la primera funcion reservo el espacio de memoria con el malloc y en la segunda la recorro para llenar la memoria.
+2-calloc.c =  En la primera parte reservo el espacio de memoria con el malloc y en la segunda la recorro para llenar la memoria.
