@@ -8,7 +8,7 @@
  * parametros de la otra funcion.
  * Return:puntero a guardar.
 */
-char *probando(char *guardar, char add, unsigned int byt)
+char *probando(char *guardar, int add, unsigned int byt)
 {
 	unsigned int iterador = 0;
 
