@@ -8,4 +8,4 @@
 
 3-function_like_macro.h = Calcula el valor absoluto de x en una macro.
 
-4-sum.h = 
+4-sum.h =  Calcula la suma de (x & y) por medio de una macro.
