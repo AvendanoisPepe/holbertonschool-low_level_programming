@@ -6,3 +6,4 @@ dog.h = Creo la estructura basica de un perro.
 
 2-print_dog.c = Imprime cierta estructura sobre los datos de un perro.
 
+4-new_dog.c
