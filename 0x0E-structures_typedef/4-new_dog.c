@@ -57,14 +57,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new = malloc(sizeof(dog_t));
 	if (new == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 	(*new).age = age;
 	(*new).name = malloc(sizeof(char) * (longi(name) + 1));
 	if (new->name == NULL)
 	{
 		free(new);
-		return (0);
+		return (NULL);
 	}
 	_cop((*new).name, name);
 	(*new).owner = malloc(sizeof(char) * (longi(owner) + 1));
@@ -72,7 +72,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		free((*new).name);
 		free(new);
-		return (0);
+		return (NULL);
 	}
 	_cop((*new).owner, owner);
 	return (new);
