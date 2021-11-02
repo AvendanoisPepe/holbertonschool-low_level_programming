@@ -70,8 +70,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	(*new).owner = malloc(sizeof(char) * (longi(owner) + 1));
 	if (new->name == NULL)
 	{
-		free(new);
 		free((*new).name);
+		free(new);
 		return (0);
 	}
 	_cop((*new).owner, owner);
