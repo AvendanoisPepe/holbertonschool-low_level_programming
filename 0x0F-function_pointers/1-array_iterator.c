@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include <stddef.h>
 /**
  * array_iterator - Ejecuta una funcion dada como parametro.
  * @array: Matriz en la cual iterar.
