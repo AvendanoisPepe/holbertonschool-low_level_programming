@@ -9,12 +9,11 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned long iterador = 0;
 
-	if (!array || !size)
+	if (!array || !size || !action)
 	{
 		return;
 	}
 
-	iterador = 0;
 	while (iterador < size)
 	{
 		action(array[iterador]);
