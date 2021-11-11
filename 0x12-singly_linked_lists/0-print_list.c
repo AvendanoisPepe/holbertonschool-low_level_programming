@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 /**
  * print_list - Imprime todos los elementos de la lista.
  * @h:Puntero a la lista a imprimir.
@@ -9,7 +8,7 @@ size_t print_list(const list_t *h)
 {
 	int iterador = 0;
 
-	for (; iterador < h; iterador++)
+	for (; h; iterador++)
 	{
 		if (h->str == NULL)
 		{
