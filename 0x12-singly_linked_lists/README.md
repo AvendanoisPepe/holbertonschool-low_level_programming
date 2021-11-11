@@ -6,3 +6,5 @@
 
 2-add_node.c - Agrego un nuevo nodo al comienzo de la lista.
 
+3-add_node_end.c  - Agrega un nodo nuevo al final de la lista.
+
