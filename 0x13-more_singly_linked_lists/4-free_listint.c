@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *  free_listint - Libera nuestra listint_t.
+ * free_listint - Libera nuestra listint_t.
  * @head: Puntero a nuestra listint_t.
 */
 void free_listint(listint_t *head)
