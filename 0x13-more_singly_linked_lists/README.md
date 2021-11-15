@@ -13,3 +13,5 @@
 5-free_listint2.c - Libera una lista y deja el encabezado como null.
 
 6-pop_listint.c - Elimina el nodo principal de listint_t.
+
+7-get_nodeint.c -  De vuelve un nodo de listint_t. buscandolo por medio de un ciclo en cual lo encontramos con index.
