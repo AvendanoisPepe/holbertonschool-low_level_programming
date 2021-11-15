@@ -11,3 +11,5 @@
  4-free_listint.c - Libera nuestra listint_t.
 
 5-free_listint2.c - Libera una lista y deja el encabezado como null.
+
+6-pop_listint.c - Elimina el nodo principal de listint_t.
