@@ -19,3 +19,5 @@
 8-sum_listint.c - Suma todos los datos(n) de la lista listint_t.
 
 9-insert_nodeint.c -Agrega un nuevo nodo en listint_t en determinada posicion.
+
+10-delete_nodeint.c - 
