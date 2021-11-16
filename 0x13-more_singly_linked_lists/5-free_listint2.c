@@ -8,12 +8,12 @@ void free_listint2(listint_t **head)
 	listint_t *Temporal;
 	listint_t *Nuevo;
 
-	Nuevo = *head;
-
 	if (head == NULL)
 	{
 		return;
 	}
+	
+	Nuevo = *head;
 
 	while (Nuevo != NULL)
 	{
