@@ -17,3 +17,5 @@
 7-get_nodeint.c -  De vuelve un nodo de listint_t. buscandolo por medio de un ciclo en cual lo encontramos con index.
 
 8-sum_listint.c - Suma todos los datos(n) de la lista listint_t.
+
+9-insert_nodeint.c -Agrega un nuevo nodo en listint_t en determinada posicion.
