@@ -1,0 +1,25 @@
+#include "lists.h"
+/**
+ * reverse_listint - Voltea la lista listint_t.
+ * @head: Puntero a la listint_t.
+ * Return:Puntero al primer nodo.
+ */
+listint_t *reverse_listint(listint_t **head)
+{
+	listint_t *Anterior;
+	listint_t *Siguiente;
+
+	if (head != NULL)
+	{
+		while (*head)
+		{
+			Siguiente = *head;
+			*head = (*head)->next;
+			Siguiente->next = Anterior;
+			Anterior = Siguiente;
+		}
+		*head = Anterior;
+		return (*head);
+	}
+	return (NULL);
+}

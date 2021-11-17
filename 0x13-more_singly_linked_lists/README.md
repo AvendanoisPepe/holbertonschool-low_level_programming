@@ -21,3 +21,5 @@
 9-insert_nodeint.c -Agrega un nuevo nodo en listint_t en determinada posicion.
 
 10-delete_nodeint.c - Elimina un nodo de listint_t en un indice definido.
+
+100-reverse_listint.c -Voltea la lista listint_t.
