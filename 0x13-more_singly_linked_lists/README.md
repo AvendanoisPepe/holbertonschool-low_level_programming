@@ -23,3 +23,5 @@
 10-delete_nodeint.c - Elimina un nodo de listint_t en un indice definido.
 
 100-reverse_listint.c -Voltea la lista listint_t.
+
+101-print_listint_safe.c -
