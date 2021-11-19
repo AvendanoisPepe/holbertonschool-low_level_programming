@@ -7,3 +7,5 @@
 2-get_bit.c - Imprime el valor de un bit en un indice dado.
 
 3-set_bit.c - Establece un bit en un indice dado de valor 1.
+
+4-clear_bit.c - Establece el valor de un bit indicado en 0.
