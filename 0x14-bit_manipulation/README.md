@@ -5,3 +5,5 @@
 1-print_binary.c -  Imprime la representacion binaria de un numero.
 
 2-get_bit.c - Imprime el valor de un bit en un indice dado.
+
+3-set_bit.c - Establece un bit en un indice dado de valor 1.
