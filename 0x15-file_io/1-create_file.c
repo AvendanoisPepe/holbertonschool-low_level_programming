@@ -18,9 +18,15 @@ int create_file(const char *filename, char *text_content)
 		;
 
 	creando = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+	
+	if (creando == -1)
+	{
+		return (-1);
+	}
+
 	guardarWrite = write(creando, text_content, contador);
 
-	if (creando == -1 || guardarWrite == -1)
+	if (guardarWrite == -1)
 	{
 		return (-1);
 	}
