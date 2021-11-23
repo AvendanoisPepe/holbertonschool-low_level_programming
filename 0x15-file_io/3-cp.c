@@ -37,13 +37,13 @@ int main(int argc, char *argv[])
 	cerrar = close(SinopuedeCrear);
 	if (SinopuedeCrear == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", cerrar);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", SinopuedeCrear);
 		exit(100);
 	}
 	cerrar = close(SinopuedoLeer);
 	if (SinopuedoLeer == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", cerrar);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", SinopuedoLeer);
 		exit(100);
 	}
 	return (0);
