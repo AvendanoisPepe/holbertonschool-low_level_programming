@@ -28,7 +28,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(guardar);
 		return (0);
 	}
-	
+
 	close(fd);
 
 	guardarWrite = write(STDOUT_FILENO, guardar, leerGuardar);
