@@ -8,7 +8,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *guardar;
-	int fd = 0, leerGuardar = 0, contador;
+	int fd = 0, leerGuardar = 0;
 	ssize_t guardarWrite;
 
 	if (filename == NULL)
