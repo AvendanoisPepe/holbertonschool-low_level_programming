@@ -10,26 +10,20 @@ int create_file(const char *filename, char *text_content)
 	int creando;
 	int guardarWrite;
 	int contador;
-	
-	for (contador = 0; text_content[contador] != '\0'; contador++)
-		;
-
-	creando = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
-	
-	if (creando == -1)
-	{
-		return (-1);
-	}
 
 	if (text_content != NULL)
 	{
+		for (contador = 0; text_content[contador] != '\0'; contador++)
+			;
+	}
+
+		creando = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 		guardarWrite = write(creando, text_content, contador);
-	}
-	
-	if (guardarWrite == -1)
-	{
-		return (-1);
-	}
+
+		if (creando == -1 || guardarWrite == -1)
+		{
+			return (-1);
+		}
 
 	close(creando);
 	return (1);
