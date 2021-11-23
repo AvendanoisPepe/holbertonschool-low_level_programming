@@ -18,7 +18,7 @@ int create_file(const char *filename, char *text_content)
 		;
 
 	creando = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	guardarWrite = write(creando, text_content, (contador + 1));
+	guardarWrite = write(creando, text_content, contador);
 
 	if (creando == -1 || guardarWrite == -1)
 	{
