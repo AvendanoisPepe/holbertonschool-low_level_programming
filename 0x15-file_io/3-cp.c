@@ -32,19 +32,19 @@ int main(int argc, char *argv[])
 	}
 	if (LeGuar == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	cerrar = close(Sicrear);
-	if (cerrar == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", Sicrear);
-		exit(100);
-	}
 	cerrar2 = close(SinoLe);
 	if (cerrar2 == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", SinoLe), exit(100);
+	}
+	if (cerrar == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", Sicrear);
+		exit(100);
 	}
 	return (0);
 }
