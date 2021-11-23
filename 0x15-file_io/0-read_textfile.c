@@ -33,7 +33,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	close(fd);
 
-	guardarWrite = write(0, guardar, leerGuardar);
+	guardarWrite = write(STDOUT_FILENO, guardar, leerGuardar);
 
 	if (guardarWrite == -1)
 	{
