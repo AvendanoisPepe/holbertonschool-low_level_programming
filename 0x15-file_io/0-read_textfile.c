@@ -8,7 +8,8 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *guardar;
-	int fd = 0, leerGuardar = 0, guardarWrite, contador, valorLetter = letters;
+	int fd = 0, leerGuardar = 0, contador;
+	ssize_t guardarWrite;
 
 	if (filename == NULL)
 		return (0);
@@ -27,11 +28,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(guardar);
 		return (0);
 	}
-	guardar[leerGuardar] = '\0';
 	
-	for (contador = 0; guardar[contador] != '\0'; contador++)
-		;
-
 	close(fd);
 
 	guardarWrite = write(STDOUT_FILENO, guardar, leerGuardar);
@@ -40,11 +37,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		free(guardar);
 		return (0);
-	}
-
-	if (valorLetter > contador)
-	{
-		guardarWrite++;
 	}
 
 	free(guardar);
