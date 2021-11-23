@@ -11,9 +11,6 @@ int create_file(const char *filename, char *text_content)
 	int guardarWrite;
 	int contador;
 
-	if (filename == NULL)
-		return (-1);
-
 	for (contador = 0; text_content[contador] != '\0'; contador++)
 		;
 
