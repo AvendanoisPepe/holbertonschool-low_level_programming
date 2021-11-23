@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
 	char limite[1024];
-	int SinoLe, Sicrear, LeGuar, cerrar, cerrar2;
+	int SinoLe, Sicrear, LeGuar, cerrar, cerrar2,guardarWrite;
 
 	if (argc != 3)
 	{
@@ -24,7 +24,8 @@ int main(int argc, char *argv[])
 	Sicrear = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	while ((LeGuar = read(SinoLe, limite, 1024)) > 0)
 	{
-		if (Sicrear < 0 || (write(Sicrear, limite, LeGuar) != LeGuar))
+		guardarWrite = write(Sicrear, limite, LeGuar);
+		if (guardarWrite < 0)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);
