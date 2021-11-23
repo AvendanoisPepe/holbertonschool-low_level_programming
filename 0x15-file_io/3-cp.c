@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
 	char limite[1024];
-	int SinopuedoLeer, SinopuedeCrear, leerGuardar, guardarWrite, cerrar;
+	int SinopuedoLeer, SinopuedeCrear, leerGuardar, guardarWrite, cerrar, cerrar2;
 
 	if (argc != 3)
 	{
@@ -35,13 +35,13 @@ int main(int argc, char *argv[])
 	if (guardarWrite == -1)
 		return (-1);
 	cerrar = close(SinopuedeCrear);
-	if (SinopuedeCrear == -1)
+	if (cerrar == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", SinopuedeCrear);
 		exit(100);
 	}
-	cerrar = close(SinopuedoLeer);
-	if (SinopuedoLeer == -1)
+	cerrar2 = close(SinopuedoLeer);
+	if (cerrar2 == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", SinopuedoLeer);
 		exit(100);
