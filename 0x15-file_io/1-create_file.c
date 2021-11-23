@@ -17,7 +17,7 @@ int create_file(const char *filename, char *text_content)
 	for (contador = 0; text_content[contador] != '\0'; contador++)
 		;
 
-	creando = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	creando = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 	guardarWrite = write(creando, text_content, contador);
 
 	if (creando == -1 || guardarWrite == -1)
