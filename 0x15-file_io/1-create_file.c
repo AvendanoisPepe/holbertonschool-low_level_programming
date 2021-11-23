@@ -10,7 +10,7 @@ int create_file(const char *filename, char *text_content)
 	int creando;
 	int guardarWrite;
 	int contador;
-
+	
 	for (contador = 0; text_content[contador] != '\0'; contador++)
 		;
 
@@ -21,8 +21,11 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	}
 
-	guardarWrite = write(creando, text_content, contador);
-
+	if (text_content != NULL)
+	{
+		guardarWrite = write(creando, text_content, contador);
+	}
+	
 	if (guardarWrite == -1)
 	{
 		return (-1);
