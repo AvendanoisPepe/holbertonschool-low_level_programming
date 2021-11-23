@@ -28,6 +28,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	guardar[leerGuardar] = '\0';
+	
+	for (contador = 0; guardar[contador] != '\0'; contador++)
+		;
 
 	close(fd);
 
