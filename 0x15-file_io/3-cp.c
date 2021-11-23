@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
 	char limite[1024];
-	int SinopuedoLeer, SinopuedeCrear, leerGuardar, guardarWrite, cerrar, cerrar2;
+	int SinopuedoLeer, SinopuedeCrear, leerGuardar, cerrar, cerrar2;
 
 	if (argc != 3)
 	{
@@ -22,19 +22,22 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	SinopuedeCrear = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-
-	leerGuardar = read(SinopuedoLeer, limite, 1024);
-	if (leerGuardar == -1)
-		return (-1);
-
-	if (SinopuedeCrear == -1)
+	while ((leerGuardar = read(SinopuedoLeer, limite, 1024)) > 0)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
-		exit(99);
+		if (SinopuedeCrear < 0 || (write(SinopuedeCrear, limite, leerGuardar) != leerGuardar))
+		{
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+			exit(99);
+		}
+		
 	}
-	guardarWrite = write(SinopuedeCrear, limite, leerGuardar);
-	if (guardarWrite == -1)
-		return (-1);
+	
+	if (leerGuardar == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[1]);
+		exit(98);
+	}
+
 	cerrar = close(SinopuedeCrear);
 	if (cerrar == -1)
 	{
