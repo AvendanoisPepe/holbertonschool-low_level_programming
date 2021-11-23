@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 	if (guardarWrite == -1)
 		return (-1);
 	cerrar = close(SinopuedeCrear);
-	if (SinopuedoLeer == -1)
+	if (SinopuedeCrear == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", cerrar);
 		exit(100);
