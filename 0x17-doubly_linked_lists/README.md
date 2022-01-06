@@ -1,4 +1,4 @@
-![](https://scontent.fbog4-1.fna.fbcdn.net/v/t39.30808-6/271441763_3074448746153168_3692028215724550162_n.jpg?_nc_cat=100&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=_KTNytk0z8IAX9XBNiy&_nc_oc=AQljUbysX4GdhBU9CF_lRb_H6laCn4Wetqc4-G5KotD5srilxKbrPlmcyxaYAyzgUBg&_nc_ht=scontent.fbog4-1.fna&oh=00_AT-VQHH0BIILRdU3CU0zY5H9iyzRtAHlSiKPo0xkIsw8HQ&oe=61DAF0B9)
+![](https://scontent.fbog4-1.fna.fbcdn.net/v/t39.30808-6/271153206_3074657909465585_6907762404450913633_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=7IqN72eeoDwAX9bX3Qr&_nc_ht=scontent.fbog4-1.fna&oh=00_AT_Rjbyy3hyaq21IT0ZPHgwMs7BFAEd-ngb_QF3wpZnDnw&oe=61DD39C0)
 
 # 0x17. C - Doubly linked lists
 
