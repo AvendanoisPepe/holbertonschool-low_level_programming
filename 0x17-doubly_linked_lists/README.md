@@ -5,4 +5,12 @@
 
 ------------
 
+|  Archives | what does this file do?  |
+| ------------ | ------------ |
+|  0-print_dlistint.c  | Write a function that prints all the elements of a dlistint_t list. |
 
+------------
+
+|  Archives | comments   |
+| ------------ | ------------ |
+|  0-print_dlistint.c  | Recorremos la lista usando el puntero a la misma y imprimos |
