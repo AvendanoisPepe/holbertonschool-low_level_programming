@@ -14,7 +14,7 @@
 | 4-free_dlistint.c | Write a function that frees a dlistint_t list. |
 | 5-get_dnodeint.c | Write a function that returns the nth node of a dlistint_t linked list. |
 | 6-sum_dlistint.c | Write a function that returns the sum of all the data (n) of a dlistint_t linked list. |
-
+| 7-insert_dnodeint.c | Write a function that inserts a new node at a given position. |
 ------------
 
 |  Archives | comments   |
@@ -26,6 +26,7 @@
 | 4-free_dlistint.c | Liberamos la memoria con free |
 | 5-get_dnodeint.c | Recorremos la lista y busca igualdad entre el index y el contador para returnar la busqueda |
 | 6-sum_dlistint.c  | Solo sumo y ya we |
+| 7-insert_dnodeint.c | Si el indice es 0 creamos un nuevo nodo y se hace un for para recorrer hasta que llegue a nul y si es el caso se crea al final de la lista, seguido usamos malloc y agregamos el nodo |
 ------------
 
 ![](https://scontent.fbog4-2.fna.fbcdn.net/v/t39.30808-6/270559680_3074660106132032_2239355789427321092_n.jpg?_nc_cat=111&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=kJ-RuSOu-iIAX9z9h-Z&_nc_ht=scontent.fbog4-2.fna&oh=00_AT_3Q9zp7oV3NV6dvSZI8GxrmM07Lrar12nk4qhAJoWyyw&oe=61DB55A7)
