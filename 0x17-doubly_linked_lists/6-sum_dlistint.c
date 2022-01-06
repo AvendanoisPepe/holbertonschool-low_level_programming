@@ -8,12 +8,12 @@ int sum_dlistint(dlistint_t *head)
 {
 	int sumita = 0;
 
-	if (head != NULL)
+	if (!head)
 	{
 		return (0);
 	}
 
-	while (head != NULL)
+	while (head)
 	{
 		sumita += head->n;
 		head = head->next;
