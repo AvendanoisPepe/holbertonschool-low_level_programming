@@ -19,3 +19,5 @@
 |  1-dlistint_len.c | Recorremos la lista y retornamos la cantidad de elementos de la misma |
 | 2-add_dnodeint.c | Generamos el espacio en memoria y agregamos el nodo |
 | 3-add_dnodeint_end.c | Reservamos espacio de memoria seguidamente agregamos el contenido al nuevo nodo y lo mandamos verificando si es nulo |
+
+![](https://scontent.fbog4-2.fna.fbcdn.net/v/t39.30808-6/270559680_3074660106132032_2239355789427321092_n.jpg?_nc_cat=111&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=kJ-RuSOu-iIAX9z9h-Z&_nc_ht=scontent.fbog4-2.fna&oh=00_AT_3Q9zp7oV3NV6dvSZI8GxrmM07Lrar12nk4qhAJoWyyw&oe=61DB55A7)
