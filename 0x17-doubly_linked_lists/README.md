@@ -40,7 +40,7 @@
 | 5-get_dnodeint.c | Recorremos la lista y busca igualdad entre el index y el contador para returnar la busqueda |  Mandatory |
 | 6-sum_dlistint.c  | Solo sumo y ya we |  Mandatory |
 | 7-insert_dnodeint.c | Si el indice es 0 creamos un nuevo nodo y se hace un for para recorrer hasta que llegue a nul y si es el caso se crea al final de la lista, seguido usamos malloc y agregamos el nodo |  Mandatory |
-| 8-delete_dnodeint.c |  |  Mandatory |
+| 8-delete_dnodeint.c | Verificamos que la lista no este vacia, seguido con un ciclo buscamos el index en el cual vamos a eliminar el nodo para al final enlazar la casilla de la lista anterior a la que eliminaremos con la que le sigue saltando la que queremos eliminar y al final reconectamos la lista y se elimine  |  Mandatory |
 | 102-result | 906609 | Advanced |
 
 ------------
