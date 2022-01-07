@@ -22,6 +22,7 @@
 | 6-sum_dlistint.c | Write a function that returns the sum of all the data (n) of a dlistint_t linked list. |  Mandatory |
 | 7-insert_dnodeint.c | Write a function that inserts a new node at a given position. |  Mandatory |
 | 8-delete_dnodeint.c | Write a function that deletes the node at index index of a dlistint_t linked list. |  Mandatory |
+| 102-result | A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. | Advanced |
 
 ------------
 
@@ -40,6 +41,7 @@
 | 6-sum_dlistint.c  | Solo sumo y ya we |  Mandatory |
 | 7-insert_dnodeint.c | Si el indice es 0 creamos un nuevo nodo y se hace un for para recorrer hasta que llegue a nul y si es el caso se crea al final de la lista, seguido usamos malloc y agregamos el nodo |  Mandatory |
 | 8-delete_dnodeint.c |  |  Mandatory |
+| 102-result | 906609 | Advanced |
 
 ------------
 
