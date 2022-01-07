@@ -2,34 +2,39 @@
 
 # 0x17. C - Doubly linked lists
 
+------------
+
+## List of files.
+
+|  Archives | what does this file do?  | level |
+| ------------ | ------------ | ------------ |
+|  0-print_dlistint.c  | Write a function that prints all the elements of a dlistint_t list. |  Mandatory |
+| 1-dlistint_len.c | Write a function that returns the number of elements in a linked dlistint_t list. |  Mandatory |
+| 2-add_dnodeint.c | Write a function that adds a new node at the beginning of a dlistint_t list. |  Mandatory |
+| 3-add_dnodeint_end.c | Write a function that adds a new node at the end of a dlistint_t list |  Mandatory |
+| 4-free_dlistint.c | Write a function that frees a dlistint_t list. |  Mandatory |
+| 5-get_dnodeint.c | Write a function that returns the nth node of a dlistint_t linked list. |  Mandatory |
+| 6-sum_dlistint.c | Write a function that returns the sum of all the data (n) of a dlistint_t linked list. |  Mandatory |
+| 7-insert_dnodeint.c | Write a function that inserts a new node at a given position. |  Mandatory |
+| 8-delete_dnodeint.c | Write a function that deletes the node at index index of a dlistint_t linked list. |  Mandatory |
 
 ------------
 
-|  Archives | what does this file do?  |
-| ------------ | ------------ |
-|  0-print_dlistint.c  | Write a function that prints all the elements of a dlistint_t list. |
-| 1-dlistint_len.c | Write a function that returns the number of elements in a linked dlistint_t list. |
-| 2-add_dnodeint.c | Write a function that adds a new node at the beginning of a dlistint_t list. |
-| 3-add_dnodeint_end.c | Write a function that adds a new node at the end of a dlistint_t list. |
-| 4-free_dlistint.c | Write a function that frees a dlistint_t list. |
-| 5-get_dnodeint.c | Write a function that returns the nth node of a dlistint_t linked list. |
-| 6-sum_dlistint.c | Write a function that returns the sum of all the data (n) of a dlistint_t linked list. |
-| 7-insert_dnodeint.c | Write a function that inserts a new node at a given position. |
-| 8-delete_dnodeint.c | Write a function that deletes the node at index index of a dlistint_t linked list. |
+## Personal comments.
 
 ------------
 
 |  Archives | comments   |
 | ------------ | ------------ |
-|  0-print_dlistint.c  | Recorremos la lista usando el puntero a la misma y imprimos |
-|  1-dlistint_len.c | Recorremos la lista y retornamos la cantidad de elementos de la misma |
-| 2-add_dnodeint.c | Generamos el espacio en memoria y agregamos el nodo |
-| 3-add_dnodeint_end.c | Reservamos espacio de memoria seguidamente agregamos el contenido al nuevo nodo y lo mandamos verificando si es nulo |
-| 4-free_dlistint.c | Liberamos la memoria con free |
-| 5-get_dnodeint.c | Recorremos la lista y busca igualdad entre el index y el contador para returnar la busqueda |
-| 6-sum_dlistint.c  | Solo sumo y ya we |
-| 7-insert_dnodeint.c | Si el indice es 0 creamos un nuevo nodo y se hace un for para recorrer hasta que llegue a nul y si es el caso se crea al final de la lista, seguido usamos malloc y agregamos el nodo |
-| 8-delete_dnodeint.c |  |
+|  0-print_dlistint.c  | Recorremos la lista usando el puntero a la misma y imprimos |  Mandatory |
+|  1-dlistint_len.c | Recorremos la lista y retornamos la cantidad de elementos de la misma |  Mandatory |
+| 2-add_dnodeint.c | Generamos el espacio en memoria y agregamos el nodo |  Mandatory |
+| 3-add_dnodeint_end.c | Reservamos espacio de memoria seguidamente agregamos el contenido al nuevo nodo y lo mandamos verificando si es nulo |  Mandatory |
+| 4-free_dlistint.c | Liberamos la memoria con free |  Mandatory |
+| 5-get_dnodeint.c | Recorremos la lista y busca igualdad entre el index y el contador para returnar la busqueda |  Mandatory |
+| 6-sum_dlistint.c  | Solo sumo y ya we |  Mandatory |
+| 7-insert_dnodeint.c | Si el indice es 0 creamos un nuevo nodo y se hace un for para recorrer hasta que llegue a nul y si es el caso se crea al final de la lista, seguido usamos malloc y agregamos el nodo |  Mandatory |
+| 8-delete_dnodeint.c |  |  Mandatory |
 
 ------------
 
