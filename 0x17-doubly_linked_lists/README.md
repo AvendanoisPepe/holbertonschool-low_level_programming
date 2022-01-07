@@ -4,6 +4,11 @@
 
 ------------
 
+## General
+- What is a doubly linked list
+- How to use doubly linked lists
+- Start to look for the right source of information without too much help
+
 ## List of files.
 
 |  Archives | what does this file do?  | level |
@@ -24,8 +29,8 @@
 
 ------------
 
-|  Archives | comments   |
-| ------------ | ------------ |
+|  Archives | comments   | level |
+| ------------ | ------------ | ------------ |
 |  0-print_dlistint.c  | Recorremos la lista usando el puntero a la misma y imprimos |  Mandatory |
 |  1-dlistint_len.c | Recorremos la lista y retornamos la cantidad de elementos de la misma |  Mandatory |
 | 2-add_dnodeint.c | Generamos el espacio en memoria y agregamos el nodo |  Mandatory |

@@ -13,23 +13,23 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	if (*head == NULL)
 		return (-1);
 
-	for(; index != 0; index--)
+	for (; index != 0; index--)
 	{
-		if(temporal == NULL)
+		if (temporal == NULL)
 			return (-1);
 		temporal = temporal->next;
 	}
 
-	if(temporal == *head)
+	if (temporal == *head)
 	{
 		*head = temporal->next;
-		if(*head != NULL)
-		    (*head)->prev = NULL;
+		if (*head != NULL)
+			(*head)->prev = NULL;
 	}
 	else
 	{
 		temporal->prev->next = temporal->next;
-		if(temporal->next != NULL)
+		if (temporal->next != NULL)
 			temporal->next->prev = temporal->prev;
 	}
 
