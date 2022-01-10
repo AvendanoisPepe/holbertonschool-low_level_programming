@@ -5,7 +5,7 @@
  * @b: segundo numero  
  * Return: division.
  */
-int divi(int a, int b)
+int div(int a, int b)
 {
     int z;
 
