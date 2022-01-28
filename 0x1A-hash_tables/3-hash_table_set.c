@@ -19,7 +19,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 	index = key_index((unsigned char *)key, ht->size);
 	temporal = ht->array[index];
-	for (; temporal != NULL; temporal++)
+	while (temporal != NULL)
 	{
 		if (strcmp(temporal->key, key) == 0)
 		{
