@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
  * hash_table_set - Agrega un nuevo elemento a la tabla hash
- * 
+ *
  * @ht: Puntero a la tabla hash
  * @key: Clave para acceder a la posicion del arreglo
  * @value: valor del nuevo nodo
@@ -11,27 +11,19 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *nuevo, *temporal;
 	unsigned long int index;
-	/*espacio de memoria para el nuevo nodo*/
+
 	nuevo = malloc(sizeof(hash_node_t));
 	if (nuevo == NULL)
 		return (0);
-	/*se comprueba que nada este vacio*/
 	if (value == NULL || key == NULL || ht == NULL)
-	{
 		return (0);
-	}
-
 	index = key_index((unsigned char *)key, ht->size);
-	/*Aca ya obtengo la ubicacion del indice a agregar*/
 	temporal = ht->array[index];
-	/*verifico que no este nulo*/
 	for (; temporal != NULL; temporal++)
 	{
-		/*comparo el valor de la llave en tempral con la de parametros*/
 		if (strcmp(temporal->key, key) == 0)
 		{
 			free(temporal->value);
-			/*duplico el valor de value*/
 			temporal->value = strdup(value);
 			if (temporal->value != NULL)
 			{
@@ -41,7 +33,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		temporal = temporal->next;
 	}
-	/*los valores del nuevo nodo*/
 	nuevo->key = strdup(key);
 	nuevo->value = strdup(value);
 	if (nuevo->key == NULL)
