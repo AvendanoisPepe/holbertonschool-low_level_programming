@@ -9,6 +9,9 @@ void hash_table_delete(hash_table_t *ht)
 	hash_node_t *temporal, *nodo;
 	unsigned long int index = 0;
 
+	if (ht == NULL)
+		return;
+
 	for (; index < ht->size; index++)
 	{
 		nodo = ht->array[index];
@@ -19,7 +22,7 @@ void hash_table_delete(hash_table_t *ht)
 			free(temporal->value);
 			free(temporal->key);
 			free(temporal);
-			}
+		}
 	}
 	free(ht->array);
 	free(ht);
