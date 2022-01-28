@@ -39,7 +39,7 @@
 | 3-hash_table_set.c | hice lo que pude | Mandatory |
 | 4-hash_table_get.c | Se usa gran parte del ejercicio anterior | Mandatory |
 | 5-hash_table_print.c | Imprimos la tabla por medio de dos ciclos, el primero donde verificamos el tamaño de la tabla y la segujda donde recorremos la temporal para imprimir el valor. | Mandatory |
-| 6-hash_table_delete.c |  | Mandatory |
+| 6-hash_table_delete.c | La misma estructura que el anterior solo que liberamos todo el contenido de temporal y de la tabla hash | Mandatory |
 
 ------------
 
