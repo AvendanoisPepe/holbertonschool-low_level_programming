@@ -37,7 +37,7 @@
 | 1-djb2.c | Usamos lo que nos dio la intranet y ya  | Mandatory |
 | 2-key_index.c | Reutilizamos la funcion pasada para saber el indice requerido | Mandatory |
 | 3-hash_table_set.c | hice lo que pude | Mandatory |
-| 4-hash_table_get.c |  | Mandatory |
+| 4-hash_table_get.c | Se usa gran parte del ejercicio anterior | Mandatory |
 | 5-hash_table_print.c |  | Mandatory |
 | 6-hash_table_delete.c |  | Mandatory |
 
