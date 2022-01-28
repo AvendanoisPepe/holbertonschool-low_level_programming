@@ -17,11 +17,11 @@ void hash_table_delete(hash_table_t *ht)
 		nodo = ht->array[index];
 		while (nodo != NULL)
 		{
-			temporal = nodo;
-			nodo = nodo->next;
 			free(temporal->value);
 			free(temporal->key);
 			free(temporal);
+			temporal = nodo;
+			nodo = nodo->next;
 		}
 	}
 	free(ht->array);
