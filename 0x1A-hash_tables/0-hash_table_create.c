@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
  * hash_table_create -  Funcion que crea una tabla hash
- * 
+ *
  * @size: Tamaño de la matrix de la tabla hash
  * Return: Puntero a la nueva tabla hash creada
  */
