@@ -25,7 +25,7 @@
 | 3-Makefile | 3. make -f 3-Makefile | Mandatory |
 | 4-Makefile | 4. A complete Makefile | Mandatory |
 | 5-island_perimeter.py | Create a function def island_perimeter(grid): that returns the perimeter of the island described in grid: | Mandatory |
-
+| 100-Makefile | 6. make -f 100-Makefile | Advanced |
 
 ------------
 
@@ -39,6 +39,7 @@
 | 3-Makefile | Se usan metodos de limpieza y elimininacion. | Mandatory |
 | 4-Makefile | Solo se agregan las banderas de compilacion | Mandatory |
 | 5-island_perimeter.py | Returna la suma de los perimentros | Mandatory |
+| 100-Makefile | Su Makefile no debería compilarse si falta el archivo de encabezado m.h | Advanced |
 
 ------------
 
