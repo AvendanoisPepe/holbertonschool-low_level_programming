@@ -37,7 +37,7 @@
 | 1-Makefile | En CC Y SRC guardamos parte del ejecutable | Mandatory |
 | 2-Makefile | Se ponen los .o en obj y el nombre igual en name | Mandatory |
 | 3-Makefile | Se usan metodos de limpieza y elimininacion. | Mandatory |
-| 4-Makefile |  | Mandatory |
+| 4-Makefile | Solo se agregan las banderas de compilacion | Mandatory |
 | 5-island_perimeter.py |  | Mandatory |
 
 ------------
