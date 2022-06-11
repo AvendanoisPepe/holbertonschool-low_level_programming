@@ -10,16 +10,16 @@
 
 void imprimir(int *array, size_t first, size_t last)
 {
-    size_t i;
+	size_t i;
 
-    printf("Searching in array: ");
-    for (i = first; i <= last; i++)
-    {
-        if (i != first)
-            printf(", ");
-        printf("%d", array[i]);
-    }
-    printf("\n");
+	printf("Searching in array: ");
+	for (i = first; i <= last; i++)
+	{
+		if (i != first)
+		printf(", ");
+		printf("%d", array[i]);
+	}
+	printf("\n");
 }
 
 /**
@@ -35,21 +35,21 @@ void imprimir(int *array, size_t first, size_t last)
 
 int binary_search(int *array, size_t size, int value)
 {
-    size_t i = 0, first = 0, last = size - 1;
+	size_t i = 0, first = 0, last = size - 1;
 
-    if (array)
-    {
-        while (first <= last)
-        {
-            imprimir(array, first, last);
-            i = (first + last) / 2; 
-            if (value > array[i])
-                first = i + 1;
-            else if (value < array[i]) 
-                last = i - 1;
-            else
-                return (i);
-        }
-    }
-    return (-1);
+	if (array)
+	{
+		while (first <= last)
+		{
+			imprimir(array, first, last);
+			i = (first + last) / 2;
+			if (value > array[i])
+				first = i + 1;
+			else if (value < array[i])
+				last = i - 1;
+			else
+				return (i);
+			}
+	}
+	return (-1);
 }
